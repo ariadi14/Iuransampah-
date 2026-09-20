@@ -17,7 +17,7 @@ jobs:
       - name: Extract project ZIP
         run: |
           mkdir -p extracted
-          ZIP_FILE="./Iuran_Sampah_RT01_FINAL_UI_v1_FIXED_JVM17_BUILD2.zip"
+          ZIP_FILE="./Iuran_Sampah_RT01_DASHBOARD_FINAL_UI_v2_.zip"
 
           if [ -z "$ZIP_FILE" ]; then
             echo "ZIP project tidak ditemukan"
